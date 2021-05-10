@@ -1,0 +1,7 @@
+dir: /srv/www/epsi-edt
+branch: main
+actions:
+  - git reset --hard
+  - git pull
+  - npm i
+  - npm restart epsi-edt
