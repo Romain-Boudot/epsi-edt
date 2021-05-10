@@ -1,5 +1,5 @@
 dir: /srv/www/epsi-edt
-branch: main
+branch: master
 actions:
   - git reset --hard
   - git pull
