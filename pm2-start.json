@@ -5,9 +5,7 @@
       "name": "epsi-edt",
       "script": "./src/index.js",
       "env": {
-        "APP_PORT": 4002,
-        "GITHUB_WEBHOOK_SECRET": "je-suis-un-super-secret-que-jamais-tu-ne-trouveras",
-        "GITHUB_AUTH_TOKEN": "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"
+        "APP_PORT": 4001
       }
     }
   ]
