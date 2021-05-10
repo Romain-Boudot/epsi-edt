@@ -26,4 +26,4 @@ api.get('/ical/:user', (req, res) => {
     })
 })
 
-api.listen(8001)
+api.listen(process.env.APP_PORT)
