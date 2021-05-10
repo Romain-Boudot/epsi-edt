@@ -15,7 +15,7 @@ function parseTimeAndRemoveUtcOffset(time) {
 
 module.exports.icalWriter = function (user, write) {
   const startDate = moment().startOf('isoWeek').add(-1, 'week')
-  const endDate = startDate.clone().add(6, 'week')
+  const endDate = startDate.clone().add(10, 'week')
 
   return dayParser(user, startDate, endDate).then(allDays => {
     seq = seq % 99999;
