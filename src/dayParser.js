@@ -18,7 +18,8 @@ function parse(user, date, depth = 0) {
   }
 
   return new Promise((resolve, reject) => {
-    wretch(`http://edtmobilite.wigorservices.net/WebPsDyn.aspx?Action=posETUD&serverid=C&tel=${user}&date=${date.format('MM/DD/YYYY')}%208:00`)
+    https://edtmobiliteng.wigorservices.net//WebPsDyn.aspx?Action=posETUD&serverid=C&tel=romain.boudot&date=08/30/2021%208:00
+    wretch(`https://edtmobiliteng.wigorservices.net//WebPsDyn.aspx?Action=posETUD&serverid=C&tel=${user}&date=${date.format('MM/DD/YYYY')}%208:00`)
       .get()
       .text(text => {
         resolve({
